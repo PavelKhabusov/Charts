@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  transition: 1s;
+}
+canvas {
+  width: 200%;
+  height: 100%;
+  display: block;
+  transform: scaleY(-1);
+}
+.wrap {
+  overflow-x: scroll;
+  height: 75vh;
+  width: 75vw;
+  margin: auto;
+  padding-top: 6vh;
+}
+.wrap::-webkit-scrollbar-track {border-radius: 0px;}
+.wrap::-webkit-scrollbar {width: 6px;}
+.wrap::-webkit-scrollbar-thumb {border-radius: 0px;background: #f0f2f5;}
+.wrap:hover::-webkit-scrollbar-thumb {background: #6a7d9b;}
+
+#next {
+  border: none;
+  background-color: #6a7d9b;
+  width: 70px;
+  height: 40px;
+  display: block;
+  margin: auto;
+  margin-top: 6vh;
+}
